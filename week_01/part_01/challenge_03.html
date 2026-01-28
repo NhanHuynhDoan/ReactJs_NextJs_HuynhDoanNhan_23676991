@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        //Data 1
+        let dolphinScores = [96, 108, 89];
+        let koalaScores = [88, 91, 110];
+
+        let dolphinAverage =
+            (dolphinScores[0] + dolphinScores[1] + dolphinScores[2]) / 3;
+        let koalaAverage =
+            (koalaScores[0] + koalaScores[1] + koalaScores[2]) / 3;
+
+        console.log("Data 1:");
+        console.log("Dolphins avg:", dolphinAverage);
+        console.log("Koalas avg:", koalaAverage);
+
+        if (dolphinAverage > koalaAverage && dolphinAverage >= 100) {
+            console.log("Dolphins win the trophy!");
+        } else if (koalaAverage > dolphinAverage && koalaAverage >= 100) {
+            console.log("Koalas win the trophy!");
+        } else if (dolphinAverage === koalaAverage && dolphinAverage >= 100 && koalaAverage >= 100) {
+            console.log("It's a draw!");
+        } else {
+            console.log("No team wins the trophy.");
+        }
+
+        //Data Bonus 1
+        dolphinScores = [97, 112, 101];
+        koalaScores = [109, 95, 123];
+
+        dolphinAverage =
+            (dolphinScores[0] + dolphinScores[1] + dolphinScores[2]) / 3;
+        koalaAverage =
+            (koalaScores[0] + koalaScores[1] + koalaScores[2]) / 3;
+
+        console.log("Data Bonus 1:");
+        console.log("Dolphins avg:", dolphinAverage);
+        console.log("Koalas avg:", koalaAverage);
+
+        if (dolphinAverage > koalaAverage && dolphinAverage >= 100) {
+            console.log("Dolphins win the trophy!");
+        } else if (koalaAverage > dolphinAverage && koalaAverage >= 100) {
+            console.log("Koalas win the trophy!");
+        } else if (dolphinAverage === koalaAverage && dolphinAverage >= 100 && koalaAverage >= 100) {
+            console.log("It's a draw!");
+        } else {
+            console.log("No team wins the trophy.");
+        }
+
+        //Data Bonus 2
+        dolphinScores = [97, 112, 101];
+        koalaScores = [109, 95, 106];
+
+        dolphinAverage =
+            (dolphinScores[0] + dolphinScores[1] + dolphinScores[2]) / 3;
+        koalaAverage =
+            (koalaScores[0] + koalaScores[1] + koalaScores[2]) / 3;
+
+        console.log("Data Bonus 2:");
+        console.log("Dolphins avg:", dolphinAverage);
+        console.log("Koalas avg:", koalaAverage);
+
+        if (dolphinAverage > koalaAverage && dolphinAverage >= 100) {
+            console.log("Dolphins win the trophy!");
+        } else if (koalaAverage > dolphinAverage && koalaAverage >= 100) {
+            console.log("Koalas win the trophy!");
+        } else if (dolphinAverage === koalaAverage && dolphinAverage >= 100 && koalaAverage >= 100) {
+            console.log("It's a draw!");
+        } else {
+            console.log("No team wins the trophy.");
+        }
+    </script>
+
+</body>
+
+</html>
