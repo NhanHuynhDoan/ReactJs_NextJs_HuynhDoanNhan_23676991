@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #222;
+        }
+
+        .number {
+            width: 15rem;
+            display: inline-block;
+        }
+    </style>
+</head>
+
+<body>
+    <button class="again">Again</button>
+    <p class="message">Start guessing...</p>
+    <span class="score">20</span>
+    <span class="number">?</span>
+    <input class="guess">
+
+    <script>
+        let score = 20;
+        let secretNumber = Math.trunc(Math.random() * 20) + 1;
+
+        document.querySelector('.again').addEventListener('click', function () {
+            score = 20;
+            secretNumber = Math.trunc(Math.random() * 20) + 1;
+
+            document.querySelector('.message').textContent = 'Start guessing...';
+            document.querySelector('.score').textContent = score;
+            document.querySelector('.number').textContent = '?';
+            document.querySelector('.guess').value = '';
+
+            document.body.style.backgroundColor = '#222';
+            document.querySelector('.number').style.width = '15rem';
+        });
+    </script>
+
+</body>
+
+</html>
