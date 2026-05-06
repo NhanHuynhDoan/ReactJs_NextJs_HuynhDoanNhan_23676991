@@ -1,0 +1,58 @@
+.search-page {
+  font-family: 'Manrope', sans-serif;
+  background: #FFFFFFFF;
+  min-height: 100vh;
+  color: #1D2128FF;
+}
+
+.main-content {
+  display: flex;
+  padding: 40px;
+  gap: 60px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.no-result-area {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.error-title {
+  font-size: 28px;
+  color: #1D2128;
+  margin-bottom: 40px;
+}
+
+.nothing-img {
+  width: 240px;
+  height: 240px;
+  margin-bottom: 24px;
+}
+
+.suggestion-text {
+  font-size: 16px;
+  color: #565E6C;
+  margin-bottom: 24px;
+}
+
+.tag-suggestions {
+  display: flex;
+  gap: 12px;
+}
+
+.tag {
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.pink-tag { background: #FDF2F7; color: #F44B87; }
+.purple-tag { background: #F4F2FF; color: #8A56AC; }
+.red-tag { background: #FFF0F1; color: #D74354; }
+.cyan-tag { background: #F0FBFA; color: #1B9B88; }

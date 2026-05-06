@@ -1,0 +1,101 @@
+.footer {
+  background-color: #1D2128;
+  color: #FFFFFF;
+  padding: 60px 40px 40px 40px;
+  font-family: 'Manrope', sans-serif;
+  margin-top: 60px;
+  border-radius: 12px 12px 0 0; /* Bo góc nhẹ 2 mép trên theo thiết kế */
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 80px;
+}
+
+.footer-left {
+  flex: 1;
+  max-width: 480px;
+}
+
+.footer-title {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+.footer-desc {
+  font-size: 14px;
+  color: #DEE1E6;
+  line-height: 1.6;
+  margin-bottom: 24px;
+}
+
+.subscribe-box {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 60px;
+}
+
+.subscribe-box input {
+  flex: 1;
+  height: 40px;
+  border-radius: 6px;
+  border: none;
+  padding: 0 16px;
+  outline: none;
+}
+
+.btn-send {
+  background-color: #F44B87;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 0 24px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.footer-bottom-info {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  font-size: 12px;
+  color: #BCC1CA;
+}
+
+.footer-logo {
+  height: 28px;
+}
+
+.footer-right {
+  display: flex;
+  gap: 120px;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-col li {
+  margin-bottom: 16px;
+}
+
+.footer-col a {
+  color: #DEE1E6;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-col a:hover {
+  color: #F44B87;
+}
+
+.mt-24 {
+  margin-top: 32px;
+}
